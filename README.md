@@ -1,2 +1,2 @@
 # nsf-latex-template
-This is a place for collaboration on templates to use in the Research.gov Proposal Preparation system. These are not officially tested or supported by the NSF Research.gov product team. 
+This is a place for collaboration on templates to use in the Research.gov Proposal Preparation system. These are not officially tested or supported by the NSF Research.gov product team.  These project description LaTeX samples were created by Program Officers who are seasoned LaTeX authors.  Output PDF files were informally tested on Research.gov and uploads succesfully. Samples were last tested November 2021.
