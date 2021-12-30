@@ -5,6 +5,7 @@ Rules of Thumb and tips:
 <li>Check the PDF Version of your resulting PDF. PDF version should be 1.5 or higher. </li>
 <li>If a PDF produces warnings or errors, experiment with different PDF producers.</li>
 <li>Line spacing warnings are prevalent with Arial 10. Increase line spacing or experiment with another PAPPG approved 10 sized font. Remember warnings do not prohibit submission.  </li>
+<li>URLS are not permitted in project descriptions. Some PDF conversions will automatically add clickable links to plain text that resemble a link. An example of a package that adds links is the hyperref package. Additional processing may be required to strip out the links from the PDF.</li>
 
   
 <P>
