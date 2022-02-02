@@ -3,15 +3,16 @@
 % This template assumes the pdflatex chain (not the traditional latex | dvips | ps2pdf chain).
 % It should function in the traditional chain if you comment out the hyperref package lines.
 % 
-\usepackage{times} % Times roman -- omit if you prefer Computer Modern Roman
+%\usepackage{times} % Times roman -- omit if you prefer Computer Modern Roman
 \usepackage{bm} % If you want bold math, but without the bloat of AMS packages
 \usepackage{color} % doh
 \usepackage{hyperref} % LaTeX cross references become hyperlinks in pdf output
 \usepackage{graphicx} % For figure insertion
 \usepackage{vmargin} % To set page size
 %
-% Hyperref stuff: Warning: don't use \href{link}{clickable text} in the Project Description,
-% as Resarch.gov doesn't like it. Likewise, avoid any text containing http, https, mailto, etc.
+% Hyperref stuff: WARNING: don't use \href{link}{clickable text} in the Project Description,
+% as Resarch.gov doesn't like it. Likewise, avoid any text containing 
+% http:, https:, mailto:, etc.
 %
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
 %
@@ -21,6 +22,13 @@
 % \setmarginsrb{〈leftmargin〉}{〈topmargin〉}{〈rightmargin〉}{〈bottommargin〉}%{〈headheight〉}{〈headsep〉}{〈footheight〉}{〈footskip〉}
 \setmarginsrb{1in}{1in}{1in}{1in}{0pt}{0mm}{0pt}{0mm}
 
+%
+% Pseudodot: break up "clickable" strings like Data.gov: Data\pseudodot{}gov
+% Use this trick in case research.gov misreads text such as "Data.gov" as a clickable hyperlink
+% (even when it isn't).
+%
+\newcommand{\pseudodot}{{\lower 2.4pt\hbox{$\cdot$}}}
+%\def\pseudodot{{\lower 2.4pt\hbox{$\cdot$}}} %% This is the PlainTeX version.
 %
 % On with the show...
 %
@@ -32,7 +40,7 @@
 %
 % Line spacing: no more than 6 lines per vertical inch
 %
-\setlength{\baselineskip}{12.6pt} % main text
+\setlength{\baselineskip}{12.6pt} % in text mode
 \setlength{\normalbaselineskip}{12.6pt} % in math mode
 
 %
@@ -66,18 +74,20 @@ $$
  \Phi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x \! e^{-t^2\!/2}\, dt\, .
 $$
 
- \subsection{La ley del rev\'{o}lver}
+\subsection{La ley del rev\'{o}lver}
  
-En  1955 fue elegido, ayudado por su gran porte y por su ideología republicana, para interpretar al M\'{a}rshal Matt Dillon en la serie \textit{La ley del rev\'{o}lver} (\textit{Gunsmoke}).
+En 1955 fue elegido, ayudado por su gran porte y por su ideolog\'{\i}a republicana, para interpretar al M\'{a}rshal Matt Dillon en la serie \textit{La ley del rev\'{o}lver} (\textit{Gunsmoke}).
 En un primer momento los productores de la cadena televisiva CBS pensaron en contratar a John Wayne, pero la idea finalmente no prosper\'{o}. La serie se emiti\'{o} por primera vez en el a\~{n}o 1955, y acompa\~{n}aban a James Arness los actores Dennis Weaver, como el ayudante Chester Goode; Milburn Stone, como el Doctor; y Amanda Blake, como Kitty. Por la serie pasaron como invitados grandes actores de la talla de John Wayne, presentando el primer cap\'{\i}tulo, Bruce Dern, Bette Davis, Warren Oates, Chuck Connors, Charles Bronson, John Carradine, David Carradine, George Kennedy, William Shatner, Leslie Nielsen, Adam West, y muchos m\'{a}s.
 En la serie trabaj\'{o} Burt Reynolds, como Quint Asper, el herrero del pueblo.
 La serie se emiti\'{o} entre 1955 y 1975 y en 1987 se film\'{o} la película \textit{Gunsmoke: Return to Dodge}, seguida de \textit{Gunsmoke II: The Last Apache} (1990), \textit{Gunsmoke III: To The Last Man} (1992), \textit{Gunsmoke IV: The Long Ride} y \textit{Gunsmoke V: One Man's Justice}, de 1993, las dos \'{u}ltimas secuelas de la serie. 
 
-\begin{figure}
-\centerline{\includegraphics[width=0.6\hsize]{figure-to-insert.pdf}}
-\caption{Maritime shipping routes through Iowa.}
-\label{fig-Bessel}
-\end{figure}
+%% Figure insertion: commented out for now so as to make the file self-contained.
+%%
+%\begin{figure}
+%\centerline{\includegraphics[width=0.6\hsize]{figure-insert.pdf}}
+%\caption{Maritime shipping routes through Iowa.}
+%\label{fig-Bessel}
+%\end{figure}
 
 \section{Another Section}
 
@@ -134,9 +144,11 @@ This gives the chain of inequalities
 \end{eqnarray*}
 thus confirming the claimed inequality (\ref{eq:ent-ineq}).\hfill$\diamond$
 
-\medskip
-
-For more detail, see Figure~\ref{fig-Bessel}.
+%% The part below references the figure that was commented out above.
+%\medskip
+%
+%For more detail, see Figure~\ref{fig-Bessel}.
+%
 
 \section{Broader Impacts\label{sec:BI}}
 
@@ -168,6 +180,8 @@ The control of light propagation by 3D-microstructured optical fibers and tempor
 
 The project likewise advances meetings and collaborative science by developing ``In Person'' technology that actually allows people to see and hear each other without using a Zoom connection: it instead leverages Photon Transfer Protocol for video, and Acoustic Molecular Diffusion for audio. With this technology, the video rarely if ever freezes up, and audio dropouts are nearly eliminated, giving an experience almost as authentic as High Definition Virtual Reality. Table~\ref{table-prices} documents the economic impact of this technology.
 
+And avoid links like Data{\pseudodot}gov or en.wikipedia.org in your text, for good measure. (Depending on your pdf viewer, the latter may function as a hyperlink; the former should not.)
+
 \section{Results of Prior NSF Support}
 
 The PI's previous awards have led, directly or indirectly, to extreme high-impact events whose monetary figure is incalculable. These include the Loma Prieta earthquake of October 1989, the Katrina hurricane of August 2005, and the six-hour Facebook outage of October 2021.
@@ -177,6 +191,8 @@ The PI's previous awards have led, directly or indirectly, to extreme high-impac
 Canada once had a Rhinoceros Party that consistently offered tantalizing election promises that spiced up the discourse. These included: providing higher education by building taller schools; instituting English, French and illiteracy as Canada's three official languages; ending crime by abolishing all laws; and adopting the British system of driving on the left, but phasing it in gradually with only buses driving on the left to begin with. In the 1970s the Rhinos offered a package of corruption and incompetence, and claimed that the then ruling Liberal Party stole their party platform.%
 \footnote{economist-dot-com/letters/2021/10/09/letters-to-the-editor}
 
+% What follows is what BiBTeX would produce in its .bbl file:
+%
 \begin{thebibliography}{9}
 
 \bibitem{gray}
