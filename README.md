@@ -11,6 +11,6 @@ Rules of Thumb and tips:
 <P>
 <P><B>nsf-sample-1.tex </b>This is a simple project description sample that includes displayed equations, inline equations, graphic insertion, tables, footnotes, and cross-references. this is designed for pdflatex (as opposed to the traditional latex | dvips | ps2pdf chain), and does not use AMS packages. 
 
-<B>nsf-sample-2.tex </b> This is a project description sample that uses the AMSTeX package. Includes mathematical and physics elements.
+<B>nsf-sample-2.tex </b> This is a project description sample that uses the AMSLaTeX package. Includes mathematical and physics elements.
 
-<B>nsf-sample-3.tex </b> This is a sample project description that does not include the AMSTeX package. Includes mathematical and physics elements.
+<B>nsf-sample-3.tex </b> This is a sample project description that does not include the AMSLaTeX package. Includes mathematical and physics elements.
