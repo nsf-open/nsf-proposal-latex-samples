@@ -1,7 +1,9 @@
 # nsf-proposal:latex-samples
-This is a place for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not policy endorsed documents and should not considered official templates.  These samples are not officially tested or supported by the NSF Research.gov product team.  These LaTeX samples were created by program officers who are seasoned LaTeX authors.  Output PDF files were informally tested on Research.gov and uploads successfully. Samples were last tested November 2021. All data entered is dummy data. 
+This is a place for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not policy endorsed documents and are not official templates.  These samples are not tested or supported by the NSF Research.gov development team.  These LaTeX samples were created by a volunteer group of program officers.  Output PDF files were tested on the Research.gov demo site and uploads successfully. Samples were last tested November 2021. All data entered is dummy data. 
 
-Rules of Thumb and tips:  
+For all other help with proposal submission, not related to LaTeX, please visit https://www.research.gov/research-web/content/aboutpsm
+
+Tips:  
 <li>Check the PDF Version of your resulting PDF. PDF version should be 1.5 or higher. </li>
 <li>If a PDF produces warnings or errors, experiment with different PDF producers.</li>
 <li>Line spacing warnings are prevalent with Arial 10. Increase line spacing or experiment with another PAPPG approved 10 sized font. Remember warnings do not prohibit submission.  </li>
