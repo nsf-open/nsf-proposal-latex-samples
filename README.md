@@ -8,11 +8,18 @@ Rules of Thumb and tips:
 <li>URLS are not permitted in project descriptions. Some PDF conversions will automatically add clickable links to plain text that resemble a link. An example of a package that adds links is the hyperref package. Additional processing may be required to strip out the links from the PDF.</li>
 
   
-<P>
+<P><P>--------------------
+  <P>
 <P><B>nsf-sample-1.tex </b>This is a simple project description sample that includes displayed equations, inline equations, graphic insertion, tables, footnotes, and cross-references. this is designed for pdflatex (as opposed to the traditional latex | dvips | ps2pdf chain), and does not use AMS packages. 
 <P>
   <B>nsf-sample-1.pdf </B>This is the corresponding PDF for nsf-sample-1.tex
-
+<P>--------------------
+  <P>
 <B>nsf-sample-2.tex </b> This is a project description sample that uses the AMSLaTeX package. Includes mathematical and physics elements.
-
+  <P>
+  <B>nsf-sample-2.pdf </B>This is the corresponding PDF for nsf-sample-2.tex
+<P>--------------------
+  <P>
 <B>nsf-sample-3.tex </b>  This is a sample project description that does not include the AMSLaTeX package. Includes mathematical and physics elements.
+    <P>
+  <B>nsf-sample-3.pdf </B>This is the corresponding PDF for nsf-sample-3.tex
