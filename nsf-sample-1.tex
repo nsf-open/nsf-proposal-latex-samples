@@ -1,9 +1,20 @@
-\documentclass[11pt]{article} % 12pt should also work, but you may wish to augment the \baselineskip below...
+\documentclass[11pt]{article} 
+% The Proposal and Award Policies and Procedures Guide
+% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
+% mandates, in Chapter 2, section B.2, that the main text should have a font size no less
+% than 11 points for *most* typefaces (including Computer Modern Roman and Times (new) Roman).
+% 
+% Actually, Helvetica (a.k.a. Arial), Palatino and Courier New can drop
+% to 10 point font size, according to the PAPPG, but be aware:
+% 10-point fonts (whatever the typeface) will promote reader fatigue.
+% Reader fatigue never works to the author's advantage.
 %
-% This template assumes the pdflatex chain (not the traditional latex | dvips | ps2pdf chain).
+%
+% This sample  assumes the pdflatex chain (not the traditional latex | dvips | ps2pdf chain).
 % It should function in the traditional chain if you comment out the hyperref package lines.
 % 
-%\usepackage{times} % Times roman -- omit if you prefer Computer Modern Roman
+%\usepackage{times} % uncomment for Times Roman;
+%                   % replace "times" with other font names, as desired. 
 \usepackage{bm} % If you want bold math, but without the bloat of AMS packages
 \usepackage{color} % doh
 \usepackage{hyperref} % LaTeX cross references become hyperlinks in pdf output
@@ -11,19 +22,23 @@
 \usepackage{vmargin} % To set page size
 %
 % Hyperref stuff: WARNING: don't use \href{link}{clickable text} in the Project Description,
-% as Resarch.gov doesn't like it. Likewise, avoid any text containing 
+% as Research.gov doesn't like it. Likewise, avoid any text containing 
 % http:, https:, mailto:, etc.
 %
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
 %
-% vmargin parameters: 1 inch margins in all directions
+% vmargin parameters:
+% The Proposal and Award Policies and Procedures Guide
+% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
+% mandates, in Chapter 2, section B.2, that margins must be at least 1 inch in all directions.
 %
 \setpapersize{USletter}
 % \setmarginsrb{〈leftmargin〉}{〈topmargin〉}{〈rightmargin〉}{〈bottommargin〉}%{〈headheight〉}{〈headsep〉}{〈footheight〉}{〈footskip〉}
 \setmarginsrb{1in}{1in}{1in}{1in}{0pt}{0mm}{0pt}{0mm}
 
 %
-% Pseudodot: break up "clickable" strings like Data.gov: Data\pseudodot{}gov
+% Pseudodot: break up "clickable" strings like "Data.gov" which you can
+% enter as Data\pseudodot{}gov in your file.
 % Use this trick in case research.gov misreads text such as "Data.gov" as a clickable hyperlink
 % (even when it isn't).
 %
@@ -38,7 +53,12 @@
 %
 \pagestyle{empty} 
 %
-% Line spacing: no more than 6 lines per vertical inch
+% Line spacing: 
+% The Proposal and Award Policies and Procedures Guide
+% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
+% mandates, in Chapter 2, section B.2, that the main text should have no more than
+% six lines to the vertical inch. With 72 points per inch, the minimum line skip 
+% would be 12 points.
 %
 \setlength{\baselineskip}{12.6pt} % in text mode
 \setlength{\normalbaselineskip}{12.6pt} % in math mode
@@ -144,11 +164,7 @@ This gives the chain of inequalities
 \end{eqnarray*}
 thus confirming the claimed inequality (\ref{eq:ent-ineq}).\hfill$\diamond$
 
-%% The part below references the figure that was commented out above.
-%\medskip
-%
-%For more detail, see Figure~\ref{fig-Bessel}.
-%
+
 
 \section{Broader Impacts\label{sec:BI}}
 
@@ -191,6 +207,11 @@ The PI's previous awards have led, directly or indirectly, to extreme high-impac
 Canada once had a Rhinoceros Party that consistently offered tantalizing election promises that spiced up the discourse. These included: providing higher education by building taller schools; instituting English, French and illiteracy as Canada's three official languages; ending crime by abolishing all laws; and adopting the British system of driving on the left, but phasing it in gradually with only buses driving on the left to begin with. In the 1970s the Rhinos offered a package of corruption and incompetence, and claimed that the then ruling Liberal Party stole their party platform.%
 \footnote{economist-dot-com/letters/2021/10/09/letters-to-the-editor}
 
+% The References Cited section would normally begin a new page:
+%
+%\newpage
+%
+%
 % What follows is what BiBTeX would produce in its .bbl file:
 %
 \begin{thebibliography}{9}
