@@ -1,5 +1,5 @@
 # nsf-proposal:latex-samples
-This is an open source repository for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not policy endorsed documents and are not official templates.  These samples are not tested or supported by the NSF Research.gov development team.  These LaTeX samples were created by a volunteer group of program officers.  Output PDF files were tested on the Research.gov demo site and uploads successfully. Samples were last tested March 2022. All data is dummy data. 
+This is an open-source repository for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not official templates, nor have they been.  These LaTeX samples were created by a volunteer group of NSF program officers.  Output PDF files upload successfully on the Research.gov demo site. Samples were last tested March 2022. All data is dummy data. 
 
 For all other help with proposal submission, not related to LaTeX, please visit https://www.research.gov/research-web/content/aboutpsm or the PAPPG guide https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg
 <P>
