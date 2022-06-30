@@ -12,6 +12,10 @@ Tips:
 <li>URLS are not permitted in project descriptions. Some PDF conversions will automatically add clickable links to plain text that resemble a link. An example of a package that adds links is the hyperref package. Additional processing may be required to strip out the links from the PDF.</li>
 <li>Avoid using a non-standard .cls (class) file which can lead to headers not being recognized or found by the Research.gov compliance tools.  Other options include deleting and retyping the headers in the PDF directly using an Adobe Acrobat PDF editor. 
   </li>
+  <li>  Using images from another PDF source may trigger warnings or error messages.  We recommend converting pictures first to PostScript for images in vector format, then from PostScript back to PDF.  If instead the image is a bitmap, convert to PNG which is supported by the "graphicx" LaTeX package.
+
+
+  </li>
 
   
 <P><P>--------------------
