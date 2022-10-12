@@ -5,19 +5,25 @@ For all other help with proposal submission, not related to LaTeX, please visit 
 <P>
   Send feedback to syee@nsf.gov and please put LaTeX Github in your subject line.
 
-Tips:  
+<b>Tips:  </b>
 <li>Check the PDF Version of your resulting PDF. PDF version should be 1.5 or higher. </li>
-<li>Don't use \subsubsection commands for required headers. Use  \section for headers. The system validations will not recognize \subsubsection
+
 <li>If a PDF produces warnings or errors, experiment with different PDF producers.</li>
 <li>Line spacing warnings are prevalent with Arial 10. Increase line spacing or experiment with another PAPPG approved 10 sized font. Remember warnings do not prohibit submission.  </li>
+<P>&nbsp;<P>&nbsp;
+<b>URLS are found in the Project Description</b>
+
 <li>URLS are not permitted in project descriptions. Some PDF conversions will automatically add clickable links to plain text that resemble a link. An example of a package that adds links is the hyperref package. Additional processing may be required to strip out the links from the PDF.</li>
+ <li>  Using images from another PDF source may trigger warnings or error messages.  We recommend converting pictures first to PostScript for images in vector format, then from PostScript back to PDF.  If instead the image is a bitmap, convert to PNG which is supported by the "graphicx" LaTeX package.
+ </li>
+<P>&nbsp;<P>&nbsp;
+<b>Headers are not being recognized:</b>
+<li>Don't use \subsubsection commands for required headers. Use  \section for headers. The system validations will not recognize \subsubsection </li>
 <li>Avoid using a non-standard .cls (class) file which can lead to headers not being recognized or found by the Research.gov compliance tools.  Other options include deleting and retyping the headers in the PDF directly using an Adobe Acrobat PDF editor. 
   </li>
-  <li>  Using images from another PDF source may trigger warnings or error messages.  We recommend converting pictures first to PostScript for images in vector format, then from PostScript back to PDF.  If instead the image is a bitmap, convert to PNG which is supported by the "graphicx" LaTeX package.
-
-
+  <li> Avoid loading font encoding packages, they can cause compliance checks to fail. Font encoding packages are mainly to tyespet non-English text and are not needed for most proposals. 
   </li>
-
+ 
   
 <P><P>--------------------
   <P>
