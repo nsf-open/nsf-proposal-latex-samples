@@ -18,7 +18,7 @@ For all other help with proposal submission, not related to LaTeX, please visit 
  </li>
 <P>&nbsp;<P>&nbsp;
 <b>Headers are not being recognized:</b>
-<li>Don't use \subsubsection commands for required headers. Use  \section for headers. The system validations will not recognize \subsubsection </li>
+<li>Don't use \subsubsection or \centerline commands for required headers. Use  \section*{} for headers. <BR>The system validations will not recognize \subsubsection.  \centerline will create an isolated line of centered text which the parser will not recognize.  </li>
 <li>Avoid using a non-standard .cls (class) file which can lead to headers not being recognized or found by the Research.gov compliance tools.  Other options include deleting and retyping the headers in the PDF directly using an Adobe Acrobat PDF editor. 
   </li>
   <li> Avoid loading font encoding packages, they can cause compliance checks to fail. Font encoding packages are mainly to tyespet non-English text and are not needed for most proposals. 
