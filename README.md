@@ -19,11 +19,15 @@ For all other help with proposal submission, not related to LaTeX, please visit 
 <P>&nbsp;<P>&nbsp;
 <b>Headers are not being recognized:</b>
 <li>Recommend using \section*{} for headers. <BR>If using \subsection or \centerline avoid using hard carriage returns after the header ("\\")   </li>
-<li>Avoid using a non-standard .cls (class) file which can lead to headers not being recognized or found by the Research.gov compliance tools.  Other options include deleting and retyping the headers in the PDF directly using an Adobe Acrobat PDF editor. 
+<li>Remove vertical line spacing commands before a header. Using for example "\vspace{-.xxx} before the /section*{header being checked here} will cause errors</li>
+  <li>Avoid using a non-standard .cls (class) file which can lead to headers not being recognized or found by the Research.gov compliance tools.  Other options include deleting and retyping the headers in the PDF directly using an Adobe Acrobat PDF editor. 
   </li>
   <li> Avoid loading font encoding packages, they can cause compliance checks to fail. Font encoding packages are mainly to tyespet non-English text and are not needed for most proposals. 
   </li>
- 
+ <P>&nbsp;<P>&nbsp;
+ <b>File is larger than 8.5x11</b>
+<li>Remove unnecessary vertical line spacing commands   </li>
+<li>Pages in landscape orientation. This also applies to non-LaTeX files. Landscape will be accepted as an orientation in a near release (late summer/early fall 2023)</li>
   
 <P><P>--------------------
   <P>
