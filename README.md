@@ -24,6 +24,7 @@ For all other help with proposal submission, not related to LaTeX, please visit 
   </li>
   <li> Avoid loading font encoding packages, they can cause compliance checks to fail. Font encoding packages are mainly to tyespet non-English text and are not needed for most proposals. 
   </li>
+<li>Be wary of editing, renaming, or producing files on a Mac. If you have Adobe Reader, and go into document properties, if the PDF Producer is for example "macOS Version ...Quartz PDFContext" the file cannot be read by our PDF parser. This will result in unsearchable PDFs and unrecogizable headers</li>
  <P>&nbsp;<P>&nbsp;
  <b>File is larger than 8.5x11</b>
 <li>Remove unnecessary vertical line spacing commands   </li>
