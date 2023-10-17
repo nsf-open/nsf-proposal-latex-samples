@@ -28,7 +28,7 @@ For all other help with proposal submission, not related to LaTeX, please visit 
  <P>&nbsp;<P>&nbsp;
  <b>File is larger than 8.5x11</b>
 <li>Remove unnecessary vertical line spacing commands   </li>
-<li>Pages in landscape orientation. This also applies to non-LaTeX files. Landscape will be accepted as an orientation in a near release (late summer/early fall 2023)</li>
+<li>Pages in landscape orientation. This also applies to non-LaTeX files. Landscape will be accepted as an orientation (October 23, 2023)</li>
   
 <P><P>--------------------
   <P>
