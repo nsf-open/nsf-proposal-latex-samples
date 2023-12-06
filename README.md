@@ -1,5 +1,5 @@
 # nsf-proposal:latex-samples
-This is an open-source repository for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not official templates, nor have they been.  These LaTeX samples were created by a volunteer group of NSF program officers.  Output PDF files upload successfully on the Research.gov demo site. Samples were last tested March 2022. All data is dummy data. 
+This is an open-source repository for collaboration on samples to use in the Research.gov Proposal Preparation system.  These samples are not official templates, nor have they been.  These LaTeX samples were created by a volunteer group of NSF program officers.  Output PDF files upload successfully on the Research.gov demo site. Samples were last tested December 6, 2023. All data is dummy data. 
 
 For all other help with proposal submission, not related to LaTeX, please visit https://www.research.gov/research-web/content/aboutpsm or the PAPPG guide https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg
 <P>
@@ -28,7 +28,7 @@ For all other help with proposal submission, not related to LaTeX, please visit 
  <P>&nbsp;<P>&nbsp;
  <b>File is larger than 8.5x11</b>
 <li>Remove unnecessary vertical line spacing commands   </li>
-<li>Pages in landscape orientation. This also applies to non-LaTeX files. Landscape will be accepted as an orientation (October 23, 2023)</li>
+<li>If using Overleaf ensure default paper size is 8.5x11</li>
   
 <P><P>--------------------
   <P>
