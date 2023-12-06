@@ -19,22 +19,15 @@
 \usepackage{color} % doh
 \usepackage{hyperref} % LaTeX cross references become hyperlinks in pdf output
 \usepackage{graphicx} % For figure insertion
-\usepackage{vmargin} % To set page size
+%\usepackage{vmargin} % To set page size
+\usepackage[letterpaper,margin=1in]{geometry}
 %
 % Hyperref stuff: WARNING: don't use \href{link}{clickable text} in the Project Description,
-% as Research.gov doesn't like it. Likewise, avoid any text containing 
+% as Resarch.gov doesn't like it. Likewise, avoid any text containing 
 % http:, https:, mailto:, etc.
 %
 \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
 %
-% vmargin parameters:
-% The Proposal and Award Policies and Procedures Guide
-% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
-% mandates, in Chapter 2, section B.2, that margins must be at least 1 inch in all directions.
-%
-\setpapersize{USletter}
-% \setmarginsrb{〈leftmargin〉}{〈topmargin〉}{〈rightmargin〉}{〈bottommargin〉}%{〈headheight〉}{〈headsep〉}{〈footheight〉}{〈footskip〉}
-\setmarginsrb{1in}{1in}{1in}{1in}{0pt}{0mm}{0pt}{0mm}
 
 %
 % Pseudodot: break up "clickable" strings like "Data.gov" which you can
