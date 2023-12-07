@@ -31,7 +31,7 @@ For all other help with proposal submission, not related to LaTeX, please visit 
 <li>If using Overleaf ensure default paper size is 8.5x11</li>
   
 <P><P>--------------------
-  <P>
+  <P>Samples were last updated December 6, 2023. Replaced vmargin in sample 1 and added geometry package in samples 2 and 3 to address page size.
 <P><B>nsf-sample-1.tex </b>This is a simple project description sample that includes displayed equations, inline equations, graphic insertion, tables, footnotes, and cross-references. this is designed for pdflatex (as opposed to the traditional latex | dvips | ps2pdf chain), and does not use AMS packages. 
 <P>
   <B>nsf-sample-1.pdf </B>This is the corresponding PDF for nsf-sample-1.tex
