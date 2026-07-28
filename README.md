@@ -6,8 +6,8 @@ For all other help with proposal submission, not related to LaTeX, please visit 
   Send feedback to syee@nsf.gov and please put LaTeX Github in your subject line.
 
 <b>Tips:  </b>
+<li>Do not upload a PDF file that is missing all metadata or file properties. Research.gov relies on them for validation, and PDF files with blank or missing properties cannot be processed and will be rejected by the system. 
 <li>Check the PDF Version of your resulting PDF. PDF version should be 1.5 or higher. </li>
-
 <li>If a PDF produces warnings or errors, experiment with different PDF producers.</li>
 <li>Line spacing warnings are prevalent with Arial 10. Increase line spacing or experiment with another PAPPG approved 10 sized font. Remember warnings do not prohibit submission.  </li>
 <P>&nbsp;<P>&nbsp;
